@@ -50,6 +50,9 @@ setwd('C:/Donghai_Desktop2/TREM2validation/CancerCell_91samples/CC_73samples_pre
 
 # Macrophage analyses
 
+### the following datafile 'ImmuneCells23clusters.rds' is big and deposited in GitLab instead of GitHub 
+### The download address of the 'ImmuneCells23clusters.rds' file is: https://gitlab.com/donghaixiong/immune.cells.big.datafiles/-/blob/master/ImmuneCells23clusters.rds
+
 immune.combined.more.clusters <- readRDS('ImmuneCells23clusters.rds')
 
 head(immune.combined.more.clusters@meta.data)
