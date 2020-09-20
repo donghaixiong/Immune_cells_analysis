@@ -582,5 +582,13 @@ summary(prediction_NatMed_103samples)$specificity
 summary(prediction_NatMed_103samples)$AUC
 
 
+### save objects for Fig5 and FigS12 plot
+
+save(Test_GSE78220_V5, GSE78220_AltAnalyze_col_rearranged, GSE78220_phenoData, out_GSE78220_V5, 
+Test_BMS038_V5, BMS038.Pre.CountTable.normalized.log, BMS038_phenoData, out_BMS038_V5, 
+Test_CC_73samples_V5, CC_73samples_GE_matrix, CC_73samples_phenoData, out_CC_73samples_V5, 
+Test_NatMed_103samples, NatMed_103samples_GE_matrix, NatMed_103samples_phenoData, out_NatMed_103samples, file='Input.objects.forFig5.RData')
+
+
 #########################################################################################################################################################################################
 #########################################################################################################################################################################################
