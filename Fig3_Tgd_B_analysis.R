@@ -61,6 +61,9 @@ library(tidyverse)
 
 setwd('C:/Donghai_Desktop2/TREM2validation/CancerCell_91samples/CC_73samples_prediction_results/Yr2020_NewRevision/NatureCommunications_submission/NatCommu_revision/AppealSubmission_V2/Revision3/Codes')
 
+### the following datafile 'ImmuneCells23clusters.rds' is big and deposited in GitLab instead of GitHub 
+### The download address of the 'ImmuneCells23clusters.rds' file is: https://gitlab.com/donghaixiong/immune.cells.big.datafiles/-/blob/master/ImmuneCells23clusters.rds
+
 immune.combined.more.clusters <- readRDS('ImmuneCells23clusters.rds')
 
 table(Idents(immune.combined.more.clusters))
